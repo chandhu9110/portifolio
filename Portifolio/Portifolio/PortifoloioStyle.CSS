@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Monserrat:wght@500;600;700&family=poppins:wght@400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --primary-color:#fff;
+    --praimary-shade:#f7f5f2;
+    --secondary-shade:#4b4c4c;
+    --red-shade:#d40700;
+    --red-shade:#b20600;
+    --accent-color:#ffee63;
+
+}
+body{
+    color: #f7f5f2;
+    background-color: #4b4c4c;
+}
+.tablink{
+    list-style: none;
+    margin: 20px;
+}
+a{
+    text-decoration: none;
+    color: aqua;
+}
+nav{
+    background-color: var(--secondary-shade);
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 5px;
+    height: 40px;
+    align-items: center;
+    box-shadow: 0 0 35px 0 black;
+    display: flex;
+}
+.heading{
+    color:aqua;
+    font-family: Monserrat;
+}
+.content{
+    display: flex;
+    padding-left:840px ;
+    align-items: center;
+}
+
+.tech1{
+    padding-left: 240px;
+    height: 80%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.tech2{
+    padding-left: 240px;
+    width: 80%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    
+}
+.protitle{
+    color: #FF4500	;
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 60px;
+}
+.pro{
+    padding-left: 140px;
+}
+table{
+    color: black;
+    background-color: #b0c4de;
+}
+
+h3{
+    color: #FF6347	;
+    font-weight: bold;
+}
+h4{
+    color: green;
+    font-weight: bold;
+}
+.t{
+    margin: 20px;
+}
+.form1{
+    text-align: center;
+    background-color: black;
+    height: 340px;
+    width: 200px;
+
+}
+.ab{
+    padding-left: 80px;
+    display: flex;
+}
+.ab2{
+    padding-left: 140px;
+}
+.ab3{
+    font-size: 17px;
+}
+.con{
+    padding-left: 640px;
+}
+.c1{
+    color: #FF4500	;
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+input{
+    border: 10px;
+}
+label{
+    color: coral;
+}
+#About{
+    display: none;
+}
+#Skills{
+    display: none;
+}
+#projects
+{
+
+    display: none;
+}
+#Contact
+{
+    display: none;
+}
